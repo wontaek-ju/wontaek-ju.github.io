@@ -1,0 +1,28 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.valueupsystems.valuemap",
+      "sha256_cert_fingerprints": [
+        "EE:11:B5:38:96:82:26:19:D9:65:41:6A:15:64:3A:04:86:E6:35:63:B2:F8:69:25:B7:73:47:0A:53:99:88:BB",
+        "EB:2B:90:BD:DE:5A:FE:36:A9:A9:1E:5F:70:2E:73:40:55:1E:92:A1:38:64:24:E8:22:7B:D3:58:68:B7:FE:78"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.valueupsystems.valuemap.dev",
+      "sha256_cert_fingerprints": [
+        "8C:B7:BB:C9:AA:25:9A:B2:ED:0F:1B:AC:B3:F3:9F:9F:FC:2E:AA:C8:4F:85:F1:78:62:B1:5C:57:BD:5B:FB:1F"
+      ]
+    }
+  }
+]
